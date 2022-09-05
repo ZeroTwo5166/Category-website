@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Krimi</title>
+    </head>
+    <body>
+        <div>
+            <div class="result" style="width: 50%;">
+                               
+                <p class="title">Kategory: Krimi</p>
+                            
+                <div class="list"> 
+                    <ul id="items">
+                        <li>op</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="field" style="width: 50%;">
+            
+                <div class="bog" style="border: 2px solid black;">
+                    <form style="margin-left: 20px;">
+                        <p style="font-size: 20px;"><strong>Tilføj en ny bog:</strong></p>
+                        Tilføj en ny titel: 
+                        <input id="titel"
+                         name="titel"
+                          type="text"
+                           style="width: 240px; margin-left: 10px;"><br>
+
+                        <p>Indtast et nyt forfatternavn eller vælg en eksisterende forfatter:</p>
+
+                        <label >Ny forfatter: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="nyforfatter"
+                             name="nyForfatter"
+                              type="text"
+                               style="width: 240px; margin-left: 10px;"></label><br><br>
+
+                        <label>Vælg en forfatter: </label>
+                        <select id="select1" style="width: 248px;margin-left: 2px;" name="forfatter">
+                            <option value="" disabled selected hidden>Vælg en forfatter</option>
+                            
+                        </select>
+
+                        <input type="reset"
+                        id="reset"
+                         value="Cancel"
+                          style="margin: 20px 10px 0px 100px; width: 60px;">
+
+                        <button id ="submit" type="button"
+                         style="margin: 20px 120px 0px 20px; width: 60px;">Ok</button>
+
+                    </form>
+                    
+                </div>
+
+                <div class="forfatter" style="border: 2px solid black;">
+                    <form style="margin-left: 20px;">
+                        <p style="font-size: 20px;"><strong>Søg efter en titel eller en forfatter:</strong></p>
+                        
+                        <label>Titel: <input id="søgTitel" name="søgTitel" type="text" style="width: 240px; margin-left: 84px;"></label><br><br>
+                        <label>Vælg en forfatter: </label>
+                        <select id="select2" style="width: 248px; margin-left: 2px;" name="søgForfatter">
+                            <option value="" disabled selected hidden>Vælg en forfatter</option>
+                      
+                        </select>
+                        <input type="reset" id="reset2" value="Cancel" style="margin: 20px 10px 0px 100px; width: 60px;">
+                        <input type="button" id="submit2" value="Ok" style="margin: 20px 120px 0px 20px; width: 60px;">
+
+                    </form>
+                </div>
+            
+            </div>
+
+        </div>
+            
+        
+        
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
+
+
+

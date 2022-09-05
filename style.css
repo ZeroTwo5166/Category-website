@@ -1,0 +1,37 @@
+.title {
+    font-size: 25px;
+    margin-left: 20px;
+    border-bottom: 3px solid green;
+    position: block;
+    width: 300px;
+    padding-bottom: 0px;
+}
+
+
+.items{
+    font-size: 20px;
+    float: left;
+    
+}
+
+.field{
+    float: right; 
+    padding-left: 10px;
+    height: 800px;
+}
+
+
+.bog{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 280px;
+}
+
+.forfatter{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 200px;
+}
+
